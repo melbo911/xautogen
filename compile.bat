@@ -1,1 +1,1 @@
-cl xautogen_0.3.c /D "NODEBUG" /O2 
+cl xautogen.c /D "NODEBUG" /O2 
