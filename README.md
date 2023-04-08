@@ -11,6 +11,9 @@ Creation of symlinks on Windows requires elevated rights, so you need the EXE to
 
 Xautogen works with X-Plane 11 and X-Plane 12 on Windows, Linux and macOS.
 
+Compiling xautogen on Linux or macOS can be done by simply running "make xautogen".
+
+
 
 
 
