@@ -14,6 +14,19 @@ Xautogen works with X-Plane 11 and X-Plane 12 on Windows, Linux and macOS.
 Compiling Xautogen on Linux or macOS can be simply done by running "make xautogen". The C-source is included in the ZIP file.
 
 
+
+      $ ./xautogen.app -h
+      Xautogen - 0.3 - melbo @x-plane.org
+
+        usage: ./xautogen.app [-d] [-f] [-h]
+
+        -d  increase debug level
+        -f  force link creation
+        -h  this help
+
+
+
+
 # Installation
 
 Copy the binary ( .exe for Windows, .app for macOS ) to your X-Plane main folder. On Windows you need to start it with right-click -> run-as-administrator.
