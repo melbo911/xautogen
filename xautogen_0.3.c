@@ -3,7 +3,7 @@
 # melbo @ https://x-plane.org
 #
 # 
-# compile:   cl xtiles.c /D "NODEBUG" /O2 
+# compile:   cl xautogen.c /D "NODEBUG" /O2 
 # 
 */
 
@@ -38,7 +38,7 @@
 #define MAX_WRD          256
 
 #define XSCENERYDIR  "Custom Scenery"
-#define XTILESDIR    XSCENERYDIR"/Xtiles"
+#define XTILESDIR    XSCENERYDIR"/Xautogen"
 #define DEFAUTOGEN   "Resources/default scenery/1000 autogen"
 
 int debugLevel = 0;
@@ -289,7 +289,7 @@ int main(int argc, char **argv) {
   char tmp[256];
   int i,n;
 
-  printf("Xtiles - %s - melbo @x-plane.org\n",VERSION);
+  printf("Xautogen - %s - melbo @x-plane.org\n",VERSION);
 
   /* parsing command line parameters */
   i = 1;
